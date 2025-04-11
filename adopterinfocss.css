@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url("https://img.freepik.com/free-photo/front-view-beautiful-dog-with-copy-space_23-2148786561.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712188800&semt=ais");  /* Replace with your image URL */
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border: 1px solid #f4f1f1;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(237, 234, 234);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: white; 
+  }
+  
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    width: 30%;  /* Fixed label width for consistency */
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-align: right;  /* Align labels to the right */
+    color: #f4f1f1;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  textarea,
+  select {
+    width: 70%;  /* Adjust input width based on label width */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .radio-group {
+    display:ruby;
+    align-items: center;
+    width: 100%;  /* Align radio buttons within input width */
+  }
+  
+  .radio-group input[type="radio"] {
+    margin-right: 5rem;
+  }
+  
+  fieldset.housing-info {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  fieldset.housing-info legend {
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    background-color: #307bfe;  /* Primary button color (adjustable) */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;  /* White text by default */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #007bff;  /* Blue hover color */
+  }

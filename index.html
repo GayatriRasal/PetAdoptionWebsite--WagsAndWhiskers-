@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Animal Adoption</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center" style="height: 45px;">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+        
+                        <a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+(91)8767041088</a>
+                        <a href="#" class="text-light me-0"><i class="fas fa-envelope text-primary me-2"></i>salunkhesamruddhi07@gmail.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-flex align-items-center justify-content-end">
+            
+                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/samruddhi-salunkhe-107a44293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn btn-light btn-square border rounded-circle nav-fill me-0"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+                <a  class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fas fa-star-of-life me-3"></i>Wags & Whiskers</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <!-- <a href="about.html" class="nav-item nav-link">About</a> -->
+                        <a href="signin.php" class="nav-item nav-link">Signin</a>
+                        <a href="login.php" class="nav-item nav-link">Login</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                               
+                                <a href="blog.html" class="dropdown-item">Our Blog</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                              
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <a href="login.php" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Adopt</a>
+                </div>
+            </nav>
+
+
+            <!-- Carousel Start -->
+            <div class="header-carousel owl-carousel">
+                <div class="header-carousel-item">
+                    <img src="https://media.istockphoto.com/id/1516239450/photo/love-portrait-and-family-with-dog-at-animal-shelter-for-adoption-at-kennel.webp?b=1&s=170667a&w=0&k=20&c=XU-0AYlpE7qJboU--vZ5wdxJzFNkfJUPtwtMuLNLUi8=" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="carousel-caption-content p-3">
+                            <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Adoption Center</h5>
+                            <h1 class="display-1 text-capitalize text-white mb-4">Find Your Perfect Companion</h1>
+                            <p class="mb-5 fs-5">"The journey of a thousand miles begins with a single step." - Lao Tzu
+                            </p>
+                            <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="login.php">Adopt </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-carousel-item">
+                    <img src="http://www.pixelstalk.net/wp-content/uploads/2016/03/cute-dog-and-cat-sitting-wallpaper.jpg " class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="carousel-caption-content p-3">
+                            <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Adoption Center</h5>
+                            <h1 class="display-1 text-capitalize text-white mb-4">Find Your Perfect Companion</h1>
+                            <p class="mb-5 fs-5 animated slideInDown">"The journey of a thousand miles begins with a single step." - Lao Tzu
+                            </p>
+                            <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="login.php">Adopt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Services Start -->
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="sub-style">
+                        <h4 class="sub-title px-3 mb-0">What We Do</h4>
+                    </div>
+                    <h1 class="display-3 mb-4">Connecting loving homes with deserving animals. One wag at a time.</h1>
+                    <p class="mb-0">"At Wags and Whiskers , we believe that every animal deserves a loving home filled with cuddles and playtime. We're dedicated to finding these deserving companions their forever families by creating a smooth and positive adoption experience for both adopters and pets."</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="https://dogforsaleinkolkata.in/wp-content/uploads/2023/11/Bichon-Frise.jpg" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Browse Profile</h5>
+                                    <p class="mb-4">Simply browse our extensive database of adoptable animals, filtering by gender, breed, age,etc . Each pet's profile includes detailed information and adorable photos to help you get to know them better.  Once you find a furry friend who catches your eye, simply click the "Adopt" button to initiate the next step.</p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYqDVQIzhuL-yFKkoMAR80dgZBeTQOowRvka7uIn0QQ-9FAf66eMS648P4ggvSBUNIl3s&usqp=CAU" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Contact</h5>
+                                    <p class="mb-4">To ensure a perfect match, after clicking "Interested," you'll be asked to complete a brief questionnaire about your lifestyle and preferences.  Our adoption specialists will then review your application and the pet's profile to see if they're a good fit.  If so, they'll contact you to schedule a meet-and-greet and answer any questions you have throughout the process.</p>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item rounded">
+                           <div class="service-img rounded-top">
+                                <img src="https://wgme.com/resources/media/6c7ef90d-e852-4434-bd77-b62710b78ab6-jumbo16x9_GettyImages1172144875.jpg?1610401694570" class="img-fluid rounded-top w-100" alt="">
+                           </div>
+                            <div class="service-content rounded-bottom bg-light p-4">
+                                <div class="service-content-inner">
+                                    <h5 class="mb-4">Take your pet home</h5>
+                                    <p class="mb-4"></p>
+                                    <!-- <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <!-- <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Services More</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+
+        <!-- About Start -->
+        <div class="container-fluid about bg-light py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="about-img pb-5 ps-5">
+                            <img src="https://www.millcreekvet.com/wp-content/uploads/sites/233/2022/03/shutterstock_274435256-800x650.jpg" class="img-fluid rounded w-100" style="object-fit: cover;" alt="Image">
+                            <div class="about-img-inner">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBdzeOGh4pQRvAPsaK2g_ABIwjJyW7O31rrGNgki6ldg&s" class="img-fluid rounded-circle w-100 h-100" alt="Image">
+                            </div>
+                            <div class="about-experience">15 years experience</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+                        <div class="section-title text-start mb-5">
+                            <h4 class="sub-title pe-3 mb-0">About Us</h4>
+                            <h1 class="display-3 mb-4">We are Ready to Help You Find Your Perfect Companion</h1>
+                            <p class="mb-4">At Wags And Whiskers, we're driven by a love for animals and a belief that every creature deserves a safe and loving home. We're more than just an adoption platform; we're a passionate community dedicated to creating lasting connections between pets and their perfect families. Our user-friendly website makes finding your furry (or feathered, or scaled!) friend a breeze, with in-depth profiles and a supportive adoption process tailored to ensure a successful match. We go beyond breed labels, focusing on personality compatibility and providing guidance every step of the way. Join us in making a difference – open your heart and home, and experience the unconditional love a rescued pet can bring</p>
+                            <div class="mb-4">
+                                <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Find Loving animals</p>
+                                <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Easy Access</p>
+                                <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Biggest Database</p>
+                            <!-- </div>
+                            <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5">Discover More</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+       
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial py-5 wow zoomInDown" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="section-title mb-5">
+                    <div class="sub-style">
+                    
+                    </div>
+                    <h1 class="display-3 mb-4">Reviews</h1>
+                </div>
+                <div class="testimonial-carousel owl-carousel">
+                    <div class="testimonial-item">
+                        <div class="testimonial-inner p-5">
+                            <div class="testimonial-inner-img mb-4">
+                                <img src="MyPic.jpg" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <p class="text-white fs-7">"Finding my forever friend was a breeze! The website was easy to navigate, and the pet profiles were so detailed and informative. I fell in love with Max's playful personality through the videos, and the adoption process was smooth and stress-free. Thank you for helping me find my perfect match!"
+                            </p>
+                            <div class="text-center">
+                                <h5 class="mb-2"> - Aarti B.</h5>
+                                <p class="mb-2 text-white-50">Mumbai,INDIA</p>
+                                <div class="d-flex justify-content-center">
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-inner p-5">
+                            <div class="testimonial-inner-img mb-4">
+                                <img src="samPic.jpg" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <p class="text-white fs-7">"I was hesitant about adopting online, but this website changed my mind! The staff at [Your Organization Name] were incredibly supportive and answered all my questions patiently. They helped me find the perfect companion for my lifestyle, and now my little Luna brings so much joy to my life. Thank you!"
+                            </p>
+                            <div class="text-center">
+                                <h5 class="mb-2">Tanvi S.</h5>
+                                <p class="mb-2 text-white-50">Pune,India</p>
+                                <div class="d-flex justify-content-center">
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-inner p-5">
+                            <div class="testimonial-inner-img mb-4">
+                                <img src="pic.jpg" class="img-fluid rounded-circle" alt="">
+                            </div>
+                            <p class="text-white fs-7">"This website is a lifesaver for animals! I never realized how many amazing pets needed loving homes. I'm so grateful I could give a second chance to Charlie. He's become an important part of our family, and we couldn't be happier. Thank you for your dedication to finding forever homes!"
+                            </p>
+                            <div class="text-center">
+                                <h5 class="mb-2">- Riya C.</h5>
+                                <p class="mb-2 text-white-50">Nashik,India</p>
+                                <div class="d-flex justify-content-center">
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                    <i class="fas fa-star text-secondary"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+       <!-- Team Start -->
+  <div class="container-fluid team py-5">
+    <div class="container py-5">
+        <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="sub-style">
+                <h4 class="sub-title px-3 mb-0">Meet our team</h4>
+            </div>
+            <h1 class="display-3 mb-4">Adoption Services from Professional Software Developers</h1>
+         
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item rounded">
+                    <div class="team-img rounded-top h-100">
+                        <img src="MyPic.jpg" class="img-fluid rounded-top w-100" alt="">
+                        <div class="team-icon d-flex justify-content-center">
+                        
+                            <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
+                        <h5>Ritika Nemade</h5>
+                        <p class="mb-0"> Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item rounded">
+                    <div class="team-img rounded-top h-100">
+                        <img src="pic.jpg" class="img-fluid rounded-top w-100" alt="">
+                        <div class="team-icon d-flex justify-content-center">
+                            <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
+                        <h5>Gayatri Rasal</h5>
+                        <p class="mb-0">Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item rounded">
+                    <div class="team-img rounded-top h-100">
+                        <img src="samPic.jpg" class="img-fluid rounded-top w-100" alt="">
+                        <div class="team-icon d-flex justify-content-center">
+                            <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
+                        <h5>Samruddhi Salunkhe</h5>
+                        <p class="mb-0">Developer</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+        <!-- Blog Start -->
+  <div class="container-fluid blog py-5">
+    <div class="container py-5">
+        <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="sub-style">
+                <h4 class="sub-title px-3 mb-0">Our Blog</h4>
+            </div>
+            <h1 class="display-3 mb-4">Excellent Facility and High Quality Adoption Services</h1>
+            <p class="mb-0">At Wags And Whiskers, we're passionate about connecting loving homes with deserving animals. We believe every pet deserves a chance to experience the joy of a forever family.  Our user-friendly website makes adopting a breeze, with detailed profiles and a supportive adoption process tailored to find the perfect match.  We're dedicated to animal welfare and go the extra mile to ensure successful adoptions that create lasting bonds. Join us in making a difference – open your heart and home to a furry (or feathered, or scaled!) friend today!</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="blog-item rounded">
+                    <div class="blog-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFMw_U72nckUh63Q8W7h9KRMYesXc5yaxJrHbq1kt4dw&s" class="img-fluid w-100" alt="Image">
+                    </div>
+                    <div class="blog-centent p-4">
+                        <div class="d-flex justify-content-between mb-4">
+                            <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i>01 jan 2023</p>
+    
+                        </div>
+                        <a href="#" class="h4">Whiskers</a>
+                        <p class="my-4"> "Meet Whiskers! This energetic Persian loves to play fetch and cuddle on the couch. She is looking for a loving home with a playful family." </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="blog-item rounded">
+                    <div class="blog-img">
+                        <img src="https://i.redd.it/german-shepherd-dog-for-adoption-8months-old-v0-u5gad7zqkn0a1.jpg?width=2160&format=pjpg&auto=webp&s=1088e53a3aa774d2a22a75e2bdd4fd1454fec3c6" class="img-fluid w-100" alt="Image">
+                    </div>
+                    <div class="blog-centent p-4">
+                        <div class="d-flex justify-content-between mb-4">
+                            <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i> 18 feb 2024</p>
+                           
+                        </div>
+                        <a href="#" class="h4">Rocky</a>
+                        <p class="my-4">"Looking for an adventure buddy? Rocky is a German Shephaard with a zest for life! he enjoys walks, hikes, and exploring the outdoors." </p>
+                
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="blog-item rounded">
+                    <div class="blog-img">
+                        <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/52587193/1/?bust=1628252610&width=720" class="img-fluid w-100" alt="Image">
+                    </div>
+                    <div class="blog-centent p-4">
+                        <div class="d-flex justify-content-between mb-4">
+                            <p class="mb-0 text-muted"><i class="fa fa-calendar-alt text-primary"></i>30 jan 2023</p>
+                           
+                        </div>
+                        <a href="#" class="h4">Ollie</a>
+                        <p class="my-4">"Ollie is a true cuddle monster! This Pit  Bull Terrier Mix loves to snuggle up on the lap and purr the night away. Perfect for someone seeking a calm and loving companion." </p>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blog End -->
+
+<!-- Footer Start -->
+<div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-white mb-4"><i class="fas fa-star-of-life me-3"></i>Wags And Whiskers</h4>
+                    <p></p>
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-share fa-2x text-white me-2"></i>
+                       
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Quick Links</h4>
+            
+    
+                    <a href="blog.html"><i class="fas fa-angle-right me-2"></i> Our Blog & News</a>
+                    <a href="team.html"><i class="fas fa-angle-right me-2"></i> Our Team</a>
+                </div>
+            </div>
+     
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Contact Info</h4>
+                    <a href=""><i class="fa fa-map-marker-alt me-2"></i> Pune, Maharashtra</a>
+                    <a href=""><i class="fas fa-envelope me-2"></i> iritikanemade@gmail.com</a>
+                    <a href=""><i class="fas fa-envelope me-2"></i> salunkhesamruddhi07@gmail.com</a>
+                    <a href=""><i class="fas fa-envelope me-2"></i> gayatrirasal20@gmail.com</a>
+                    <a href=""><i class="fas fa-phone me-2"></i> +(91)8767041088</a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- Copyright Start -->
+<div class="container-fluid copyright py-4">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-md-6 text-center text-md-start mb-md-0">
+                <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Wags and Wiggles</a>, All right reserved.</span>
+            </div>
+        
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+<!-- Back to Top -->
+<a href="team.html" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+
+<!-- JavaScript Libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+
+</body>
+
+</html>

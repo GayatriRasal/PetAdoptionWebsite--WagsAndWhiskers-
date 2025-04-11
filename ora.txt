@@ -1,0 +1,42 @@
+Project
+check if palindrome
+reverse k characters in a string
+applications on stack,queue,their diff
+array linkedlist diff and applications
+qs:Given an arralist of numbers,make pair of all the numbers and calculate bitwise and 
+   and bitwise xor of all the pairs ,if result of xor greater than and,increment counter,optimize soln
+sql  nosql
+leetcode revision
+array reversal without using third variable
+hashmap,hashset working
+oops
+reverse words in a given string
+joins and its types,keys:primary,foreign
+knapsack
+os
+dbms sql queries
+longest consequtive subsequence
+qs:array element is given u hve to findtwo pairs whose sum is equal
+acid with transaction eg
+semaphores and types,critical section,lock
+ds applications
+sorted rotated array,search elemrnt
+bst concept with example
+hashing and its advantage over linkedlist and array
+circular linked listimplementation
+thrashing in os
+merge two sorted linked list
+bubble sort,quick,merge
+LRU cache,kernel
+rdbms,primary key,normalization
+
+
+
+
+
+
+
+questions for the interviewer
+teamwork,leadership qualities
+situational
+favorite subjects
